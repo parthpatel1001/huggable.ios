@@ -13,6 +13,11 @@
 		A74ECB1A1A9009A100CDF588 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74ECB191A9009A100CDF588 /* Images.xcassets */; };
 		A74ECB1D1A9009A100CDF588 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74ECB1B1A9009A100CDF588 /* LaunchScreen.xib */; };
 		A74ECB291A9009A100CDF588 /* HuggableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ECB281A9009A100CDF588 /* HuggableTests.swift */; };
+		A74ECB891A901A4300CDF588 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74ECB861A901A2C00CDF588 /* Alamofire.framework */; };
+		A74ECB8A1A901A4300CDF588 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A74ECB861A901A2C00CDF588 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A74ECB9D1A9038D600CDF588 /* ReunionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ECB9B1A9038D600CDF588 /* ReunionViewController.swift */; };
+		A7959C941A9124BE004B02C7 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7959C8D1A9124A2004B02C7 /* SwiftyJSON.framework */; };
+		A7959C951A9124BE004B02C7 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A7959C8D1A9124A2004B02C7 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +28,78 @@
 			remoteGlobalIDString = A74ECB0C1A9009A100CDF588;
 			remoteInfo = Huggable;
 		};
+		A74ECB851A901A2C00CDF588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74ECB801A901A2C00CDF588 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27AB60071A7FAFBF0069F786;
+			remoteInfo = Alamofire;
+		};
+		A74ECB871A901A2C00CDF588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74ECB801A901A2C00CDF588 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27AB60121A7FAFBF0069F786;
+			remoteInfo = AlamofireTests;
+		};
+		A74ECB8B1A901A4300CDF588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74ECB801A901A2C00CDF588 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AB60061A7FAFBF0069F786;
+			remoteInfo = Alamofire;
+		};
+		A7959C8C1A9124A2004B02C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7959C841A9124A2004B02C7 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = SwiftyJSON;
+		};
+		A7959C8E1A9124A2004B02C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7959C841A9124A2004B02C7 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = SwiftyJSONTests;
+		};
+		A7959C901A9124A2004B02C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7959C841A9124A2004B02C7 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EC1C1C91A0C1A2D0026ED0B;
+			remoteInfo = SwiftyJSONOSX;
+		};
+		A7959C921A9124A2004B02C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7959C841A9124A2004B02C7 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EC1C1D31A0C1A2D0026ED0B;
+			remoteInfo = SwiftyJSONOSXTests;
+		};
+		A7959C961A9124BE004B02C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7959C841A9124A2004B02C7 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = SwiftyJSON;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A74ECB8D1A901A4300CDF588 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A7959C951A9124BE004B02C7 /* SwiftyJSON.framework in Embed Frameworks */,
+				A74ECB8A1A901A4300CDF588 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A74ECB0D1A9009A100CDF588 /* Huggable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huggable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +112,9 @@
 		A74ECB221A9009A100CDF588 /* HuggableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuggableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74ECB271A9009A100CDF588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A74ECB281A9009A100CDF588 /* HuggableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuggableTests.swift; sourceTree = "<group>"; };
+		A74ECB801A901A2C00CDF588 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		A74ECB9B1A9038D600CDF588 /* ReunionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReunionViewController.swift; sourceTree = "<group>"; };
+		A7959C841A9124A2004B02C7 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "../../../../Downloads/SwiftyJSON-master/SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +122,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7959C941A9124BE004B02C7 /* SwiftyJSON.framework in Frameworks */,
+				A74ECB891A901A4300CDF588 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +140,8 @@
 		A74ECB041A9009A100CDF588 = {
 			isa = PBXGroup;
 			children = (
+				A7959C841A9124A2004B02C7 /* SwiftyJSON.xcodeproj */,
+				A74ECB801A901A2C00CDF588 /* Alamofire.xcodeproj */,
 				A74ECB0F1A9009A100CDF588 /* Huggable */,
 				A74ECB251A9009A100CDF588 /* HuggableTests */,
 				A74ECB0E1A9009A100CDF588 /* Products */,
@@ -80,6 +163,7 @@
 				A74ECB121A9009A100CDF588 /* AppDelegate.swift */,
 				A74ECB141A9009A100CDF588 /* ViewController.swift */,
 				A74ECB161A9009A100CDF588 /* Main.storyboard */,
+				A74ECB9B1A9038D600CDF588 /* ReunionViewController.swift */,
 				A74ECB191A9009A100CDF588 /* Images.xcassets */,
 				A74ECB1B1A9009A100CDF588 /* LaunchScreen.xib */,
 				A74ECB101A9009A100CDF588 /* Supporting Files */,
@@ -112,6 +196,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A74ECB811A901A2C00CDF588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74ECB861A901A2C00CDF588 /* Alamofire.framework */,
+				A74ECB881A901A2C00CDF588 /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7959C851A9124A2004B02C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7959C8D1A9124A2004B02C7 /* SwiftyJSON.framework */,
+				A7959C8F1A9124A2004B02C7 /* SwiftyJSONTests.xctest */,
+				A7959C911A9124A2004B02C7 /* SwiftyJSON.framework */,
+				A7959C931A9124A2004B02C7 /* SwiftyJSONOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +226,13 @@
 				A74ECB091A9009A100CDF588 /* Sources */,
 				A74ECB0A1A9009A100CDF588 /* Frameworks */,
 				A74ECB0B1A9009A100CDF588 /* Resources */,
+				A74ECB8D1A901A4300CDF588 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A74ECB8C1A901A4300CDF588 /* PBXTargetDependency */,
+				A7959C971A9124BE004B02C7 /* PBXTargetDependency */,
 			);
 			name = Huggable;
 			productName = Huggable;
@@ -161,6 +268,7 @@
 				TargetAttributes = {
 					A74ECB0C1A9009A100CDF588 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = YABLV63Z84;
 					};
 					A74ECB211A9009A100CDF588 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -179,6 +287,16 @@
 			mainGroup = A74ECB041A9009A100CDF588;
 			productRefGroup = A74ECB0E1A9009A100CDF588 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A74ECB811A901A2C00CDF588 /* Products */;
+					ProjectRef = A74ECB801A901A2C00CDF588 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = A7959C851A9124A2004B02C7 /* Products */;
+					ProjectRef = A7959C841A9124A2004B02C7 /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A74ECB0C1A9009A100CDF588 /* Huggable */,
@@ -186,6 +304,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A74ECB861A901A2C00CDF588 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = A74ECB851A901A2C00CDF588 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A74ECB881A901A2C00CDF588 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = A74ECB871A901A2C00CDF588 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7959C8D1A9124A2004B02C7 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = A7959C8C1A9124A2004B02C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7959C8F1A9124A2004B02C7 /* SwiftyJSONTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftyJSONTests.xctest;
+			remoteRef = A7959C8E1A9124A2004B02C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7959C911A9124A2004B02C7 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = A7959C901A9124A2004B02C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7959C931A9124A2004B02C7 /* SwiftyJSONOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftyJSONOSXTests.xctest;
+			remoteRef = A7959C921A9124A2004B02C7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A74ECB0B1A9009A100CDF588 /* Resources */ = {
@@ -214,6 +377,7 @@
 			files = (
 				A74ECB151A9009A100CDF588 /* ViewController.swift in Sources */,
 				A74ECB131A9009A100CDF588 /* AppDelegate.swift in Sources */,
+				A74ECB9D1A9038D600CDF588 /* ReunionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +396,16 @@
 			isa = PBXTargetDependency;
 			target = A74ECB0C1A9009A100CDF588 /* Huggable */;
 			targetProxy = A74ECB231A9009A100CDF588 /* PBXContainerItemProxy */;
+		};
+		A74ECB8C1A901A4300CDF588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = A74ECB8B1A901A4300CDF588 /* PBXContainerItemProxy */;
+		};
+		A7959C971A9124BE004B02C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			targetProxy = A7959C961A9124BE004B02C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,9 +512,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Huggable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,9 +526,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Huggable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,6 +589,7 @@
 				A74ECB2E1A9009A100CDF588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A74ECB2F1A9009A100CDF588 /* Build configuration list for PBXNativeTarget "HuggableTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +598,7 @@
 				A74ECB311A9009A100CDF588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
